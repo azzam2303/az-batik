@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f0e5">
+  <meta name="description" content="Jelajahi ragam motif batik dan kain bermotif batik dari berbagai daerah di Indonesia.">
+  <title>AZ Batik — Cerita di Balik Motif</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="batik.css">
+  <script src="batik.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="AZ Batik, halaman utama">
+      <span class="brand-mark" aria-hidden="true">AZ</span>
+      <span>AZ <span class="brand-accent">Batik</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#koleksi">Koleksi</a>
+      <a href="#tentang">Tentang batik</a>
+    </nav>
+    <a class="header-link" href="#koleksi">Jelajahi motif <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="tentang">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> 10 MOTIF • 10 DAERAH</p>
+        <h1>Dari Parang<br>sampai <em>Sasirangan.</em></h1>
+        <p class="hero-description">Jelajahi motif batik dan kain bermotif batik dari berbagai daerah di Indonesia, lengkap dengan asal dan kisah di baliknya.</p>
+        <a class="primary-button" href="#koleksi">Temukan ragam batik <span aria-hidden="true">↓</span></a>
+        <div class="hero-note"><span>UNESCO mengakui batik Indonesia sebagai Warisan Budaya Takbenda pada 2009.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi motif batik berwarna biru dan terracotta">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="hero-caption"><span>AZ BATIK</span><span>Motif dari berbagai daerah</span></div>
+      </div>
+      <div class="hero-side-label" aria-hidden="true">DARI TANAH AIR, UNTUK DUNIA</div>
+    </section>
+
+    <section class="collection-section" id="koleksi">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> JELAJAHI KEKAYAAN INDONESIA</p>
+          <h2>Kenali <em>motifnya.</em></h2>
+        </div>
+        <p class="section-intro">Setiap daerah punya bahasa visualnya sendiri. Jelajahi ragam motif dan kain bermotif batik dari berbagai penjuru Indonesia.</p>
+      </div>
+
+      <div class="collection-tools">
+        <div class="filter-list" role="group" aria-label="Filter daerah batik">
+          <button class="filter-button is-active" type="button" data-filter="Semua" aria-pressed="true">Semua</button>
+          <button class="filter-button" type="button" data-filter="Jawa" aria-pressed="false">Jawa</button>
+          <button class="filter-button" type="button" data-filter="Luar Jawa" aria-pressed="false">Luar Jawa</button>
+        </div>
+        <label class="search-box">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <span class="visually-hidden">Cari motif atau daerah</span>
+          <input id="batik-search" type="search" placeholder="Cari motif atau daerah..." autocomplete="off">
+          <kbd>Ctrl K</kbd>
+        </label>
+      </div>
+
+      <div class="batik-grid" id="batik-grid" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>Motif tidak ditemukan. Coba kata kunci atau filter lain.</p>
+      <div class="collection-footer"><span>MENJAGA CERITA, MERAWAT BUDAYA</span><span>RAGAM MOTIF INDONESIA</span></div>
+    </section>
+
+    <section class="closing-note">
+      <p>Parang dari Yogyakarta, Mega Mendung dari Cirebon, hingga Sasirangan dari Kalimantan Selatan—<em>tiap daerah punya corak khasnya.</em></p>
+      <span class="closing-caption">TIGA MOTIF DARI KOLEKSI AZ BATIK</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#"><span class="brand-mark" aria-hidden="true">AZ</span><span>AZ <span class="brand-accent">Batik</span></span></a>
+    <span>© 2026 Azzam Fadhlan Efrizal Yusuf. Hak cipta dilindungi.</span>
+    <a href="#tentang">Kembali ke atas ↑</a>
+  </footer>
+</body>
+</html>
