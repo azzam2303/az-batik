@@ -28,7 +28,7 @@ if (["name", "region", "story", "description", "meaning", "image"].some((key) =>
         <p class="eyebrow"><span class="eyebrow-line"></span> MOTIF TIDAK DITEMUKAN</p>
         <h1>Yuk, kembali ke koleksi.</h1>
         <p>Pilih ikon panah pada salah satu motif untuk membaca cerita lengkapnya.</p>
-        <a class="primary-button" href="batik.html#koleksi">Lihat koleksi <span aria-hidden="true">↗</span></a>
+        <a class="primary-button" href="index.html#koleksi">Lihat koleksi <span aria-hidden="true">↗</span></a>
       </section>`;
 } else {
     detailFields.name.textContent = detailValues.name;
